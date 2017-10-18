@@ -1,8 +1,9 @@
 #!/usr/bin/env python
 import SimpleHTTPServer
 import SocketServer
+import os
 
-PORT = 80
+PORT = os.getenv("PORT")
 
 Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
 
