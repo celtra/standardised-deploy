@@ -3,7 +3,7 @@ import SimpleHTTPServer
 import SocketServer
 import os
 
-PORT = os.getenv("PORT")
+PORT = int(os.getenv("PORT"))
 
 Handler = SimpleHTTPServer.SimpleHTTPRequestHandler
 
