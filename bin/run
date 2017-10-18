@@ -2,6 +2,9 @@
 import SimpleHTTPServer
 import SocketServer
 import os
+import time
+
+time.sleep(120)
 
 PORT = int(os.getenv("PORT"))
 
