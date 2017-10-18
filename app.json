@@ -1,20 +1,3 @@
 {
   "name": "standardised-deploy",
-  "scripts": {
-  },
-  "env": {
-    "PORT": {
-      "required": true
-    }
-  },
-  "formation": {
-  },
-  "addons": [
-
-  ],
-  "buildpacks": [
-    {
-      "url": "heroku/python"
-    }
-  ]
 }
