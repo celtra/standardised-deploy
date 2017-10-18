@@ -1,1 +1,1 @@
-web: bin/run
+web: python bin/run
