@@ -10,7 +10,11 @@
   "formation": {
   },
   "addons": [
+
   ],
   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
   ]
 }
